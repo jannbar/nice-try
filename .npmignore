@@ -1,7 +1,5 @@
-src
-.changeset
-.github
-pnpm-lock.yaml
-tsconfig.json
-vite.config.ts
-.prettierrc.cjs
+*
+!package.json
+!dist/**/*
+!README.md
+!CHANGELOG.md
