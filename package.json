@@ -14,6 +14,7 @@
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
   "keywords": [],
+  "private": false,
   "author": "Jannik Baranczyk",
   "license": "MIT",
   "devDependencies": {
