@@ -15,7 +15,7 @@
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
-    "format": "prettier --write src/"
+    "format": "prettier --write ./src/**/*.ts"
   },
   "keywords": [],
   "private": false,
