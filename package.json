@@ -1,6 +1,9 @@
 {
   "name": "@wh1zk1d/nice-try",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/wh1zk1d/nice-try"
+  },
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
