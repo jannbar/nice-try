@@ -15,6 +15,10 @@
   },
   "keywords": [],
   "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "Jannik Baranczyk",
   "license": "MIT",
   "devDependencies": {
