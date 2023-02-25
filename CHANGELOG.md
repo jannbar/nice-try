@@ -1,5 +1,11 @@
 # @wh1zk1d/nice-try
 
+## 0.0.4
+
+### Patch Changes
+
+- cf61d75: Get CI running
+
 ## 0.0.3
 
 ### Patch Changes
