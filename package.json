@@ -1,19 +1,23 @@
 {
-  "name": "nice-try",
+  "name": "@wh1zk1d/nice-try",
   "version": "0.0.1",
-  "description": "A simple wrapper function to simplify working with try/catch.",
-  "main": "index.js",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "ci": "pnpm run lint && pnpm run test && pnpm run build"
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
   "keywords": [],
   "author": "Jannik Baranczyk",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5",
     "vitest": "^0.29.1"
